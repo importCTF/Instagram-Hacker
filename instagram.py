@@ -1,6 +1,5 @@
 # Date: 06/10/2017
 # Distro: Kali linux
-# Author: John Maltezos
 # Desc: Instagram Bruteforce
 #
 #
