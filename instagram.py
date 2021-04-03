@@ -49,7 +49,7 @@ class Instagram(TorManager,Browser):
 		try:
 			if self.isFound:
 				self.display(msg)
-				print ' [-] Password Found!'
+				print (' [-] Password Found!') # why don't we put () there?
 
 				with open('Cracked.txt','a') as f:
 					f.write('[-] Username: {}\n[-] Password: {}\n\n'.\
