@@ -55,9 +55,9 @@ class Instagram(TorManager,Browser):
 					f.write('[-] Username: {}\n[-] Password: {}\n\n'.\
 					format(self.username,msg))
 
-			    if all([not self.isFound, msg]):
+			if all([not self.isFound, msg]):
 			    	print '\n [-] {}'.format(msg)
-			    finally:exit()
+			finally:exit()
 
 			def modifylist(self):
 				if len(self.recentIps) == 5:
