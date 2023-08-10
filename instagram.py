@@ -12,7 +12,7 @@ import threading
 import subprocess
 from platform import platform
 from Core.tor import TorManager
-from Core.Browser import Browser
+from Core.browser import Browser
 
 class Instagram(TorManager, Browser):
     def __init__(self, username, wordlist):
