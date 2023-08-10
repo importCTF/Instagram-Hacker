@@ -1,0 +1,3 @@
+mechanize
+requests
+pysocks
