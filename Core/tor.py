@@ -10,7 +10,7 @@ class TorManager(object):
 
  def installTor(self):
   subprocess.call(['clear'])
-  print '{0}[{1}-{0}]{2} Installing Tor, Please Wait {3}...{2}'.\
+  print('{0}[{1}-{0}]{2} Installing Tor, Please Wait {3}...{2}').\
   format(self.y,self.r,self.n,self.g);time.sleep(3)
   cmd = ['apt-get','install','tor','-y']
   subprocess.Popen(cmd,stdout=self.devnull,stderr=self.devnull).wait()
