@@ -4,7 +4,7 @@ import requests
 import cookielib
 import mechanize
 
-class Browser(object)
+class Browser(object):
 def __init__(self):
 	self.br = None
 
